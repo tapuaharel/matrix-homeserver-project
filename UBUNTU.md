@@ -1,6 +1,6 @@
 # Ubuntu Server LTS Installation and Configuration
 
-This document outlines the steps to install and configure Ubuntu Server LTS on a Raspberry Pi 4 and set it up to work with your Matrix homeserver.
+Ubuntu Server LTS is the operating system running on the Raspberry Pi 4
 
 ## Initial Setup
 
