@@ -38,7 +38,3 @@ Conduwuit is a lightweight Matrix server implementation.
 ## Federation
 
 - Ensure that federation is enabled and configured in `conduwuit-config.json`.
-
-## Troubleshooting
-
-- **Check Conduwuit logs for errors and connectivity issues.**
