@@ -23,7 +23,7 @@ This homeserver is for personal use and experimentation.
 
 ## Documentation
 
-For detailed configuration and setup, refer to the following documents in the order shown:
+For detailed installation and configuration, refer to the following documents in the order shown:
 
 - **[Ubuntu Server LTS](UBUNTU.md)**
 - **[PostgreSQL](POSTGRESQL.md)**
