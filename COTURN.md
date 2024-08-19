@@ -1,4 +1,4 @@
-# Coturn Configuration
+# Coturn Installation and Configuration
 
 Coturn provides TURN services to enhance real-time communication.
 
