@@ -18,7 +18,7 @@ This homeserver is for personal use and experimentation.
 - **Database:** PostgreSQL
 - **Runtime:** Deno
 - **Matrix Server:** Conduwuit
-- **Reverse Proxy:** Caddy
+- **Reverse Proxy Server:** Caddy
 - **TURN Server:** Coturn
 
 ## Documentation
