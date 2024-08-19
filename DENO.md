@@ -1,4 +1,4 @@
-# Deno Installation
+# Deno Installation and Configuration
 
 Deno is a runtime for JavaScript and TypeScript that is used to run Conduwuit.
 
