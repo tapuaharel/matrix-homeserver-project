@@ -22,8 +22,8 @@ This document outlines the steps to install and configure Ubuntu Server LTS on a
 
 - **Access the System:**
   Log in using SSH or directly on the Raspberry Pi:
-    - Username: username
-    - Password: password
+    - Username: "yourusername"
+    - Password: "yourpassword"
   Change the password on first login.
 
 - **Update the System:**
