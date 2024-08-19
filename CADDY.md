@@ -1,4 +1,4 @@
-# Caddy Configuration
+# Caddy Installation and Configuration
 
 Caddy is used as a reverse proxy to manage DNS, TLS, HTTPS and forward traffic to the Matrix server.
 
