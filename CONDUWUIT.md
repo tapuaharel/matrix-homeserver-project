@@ -1,4 +1,4 @@
-# Conduwuit Configuration
+# Conduwuit Installation and Configuration
 
 Conduwuit is a lightweight Matrix server implementation.
 
