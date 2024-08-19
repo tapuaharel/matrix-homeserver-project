@@ -25,6 +25,7 @@ This homeserver is for personal use and experimentation.
 
 For detailed installation and configuration, refer to the following documents in the order shown:
 
+- **[Networking](NETWORKING.md)**
 - **[Ubuntu Server LTS](UBUNTU.md)**
 - **[PostgreSQL](POSTGRESQL.md)**
 - **[Deno](DENO.md)**
