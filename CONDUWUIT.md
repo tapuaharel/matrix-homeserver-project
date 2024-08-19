@@ -22,8 +22,8 @@ Conduwuit is a lightweight Matrix server implementation.
         "host": "localhost",
         "port": 5432,
         "name": "matrixdb",
-        "user": "redacted",
-        "password": "redacted"
+        "user": "yourusername",
+        "password": "yourpassword"
       }
     }
     ```
