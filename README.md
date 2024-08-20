@@ -6,20 +6,20 @@ This homeserver is for personal use and experimentation.
 
 ## Hardware
 
-- **Raspberry Pi 4 Model B 8GB RAM**
-- **Official Raspberry Pi 4 Power Supply**
-- **Argon ONE M.2 NVMe Aluminum Case**
-- **Samsung 256GB M.2 2280 PCIe 3.0 x4 NVMe SSD**
-- **SanDisk Ultra MicroSDXC 64GB**
+- Raspberry Pi 4 Model B 8GB RAM
+- Official Raspberry Pi 4 Power Supply
+- Argon ONE M.2 NVMe Aluminum Case
+- Samsung 256GB M.2 2280 PCIe 3.0 x4 NVMe SSD
+- SanDisk Ultra MicroSDXC 64GB
 
 ## Software
 
-- **Operating System:** Ubuntu Server LTS
-- **Database:** PostgreSQL
-- **Runtime:** Deno
-- **Matrix Server:** Conduwuit
-- **Reverse Proxy Server:** Caddy
-- **TURN Server:** Coturn
+- Operating System: Ubuntu Server LTS
+- Database: PostgreSQL
+- Runtime: Deno
+- Matrix Server: Conduwuit
+- Reverse Proxy Server: Caddy
+- TURN Server: Coturn
 
 ## Documentation
 
