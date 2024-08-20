@@ -14,12 +14,12 @@ This homeserver is for personal use and experimentation.
 
 ## Software
 
-- Operating System: Ubuntu Server LTS
-- Database: PostgreSQL
-- Runtime: Deno
-- Matrix Server: Conduwuit
-- Reverse Proxy Server: Caddy
-- TURN Server: Coturn
+- Ubuntu Server LTS
+- PostgreSQL
+- Deno
+- Conduwuit
+- Caddy
+- Coturn
 
 ## Documentation
 
