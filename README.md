@@ -1,7 +1,7 @@
 # Matrix Homeserver
 
 ## Overview
-This repository contains the documentation for the deployment of my Matrix homeserver.
+This repository contains detailed documentation for the deployment of my Matrix homeserver.
 This homeserver is for personal use and experimentation.
 
 ## Hardware
