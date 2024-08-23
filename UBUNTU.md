@@ -1,4 +1,4 @@
-# Ubuntu Server LTS Installation and Configuration
+# Ubuntu Server LTS
 
 Ubuntu Server LTS is the operating system running on the Raspberry Pi 4.
 
