@@ -7,6 +7,13 @@ Ubuntu Server LTS is the operating system running on the Raspberry Pi 4.
 - Flash the Raspberry Pi OS 64bit image onto the MicroSD card using Raspberry Pi Imager.
 - Insert the flashed MicroSD card into the Raspberry Pi and connect the NVMe SSD using the Argon ONE M.2 NVMe Aluminum Case.
 - Boot the Raspberry Pi from the MicroSD card.
+- Update package lists and upgrade all packages.
+
+  ```sh
+  sudo apt update
+  sudo apt full-upgrade
+  ```
+
 - Download the Ubuntu Server LTS ARM64 ISO file and flash it to the NVMe drive using Raspberry Pi Imager.
 
 ## Configuration
