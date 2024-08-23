@@ -15,7 +15,6 @@ This homeserver is for personal use and experimentation.
 ## Software
 
 - Ubuntu Server LTS
-- Deno
 - Conduwuit
 - Caddy
 - Coturn
@@ -25,7 +24,6 @@ This homeserver is for personal use and experimentation.
 For detailed installation and configuration, refer to the following documents in the order shown:
 
 - **[Ubuntu Server LTS](UBUNTU.md)**
-- **[Deno](DENO.md)**
 - **[Conduwuit](CONDUWUIT.md)**
 - **[Caddy](CADDY.md)**
 - **[Coturn](COTURN.md)**
