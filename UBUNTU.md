@@ -2,6 +2,9 @@
 
 Ubuntu Server LTS is the operating system running on the Raspberry Pi 4.
 
+## Overview
+System preparation in order to boot the operating system from the NVMe drive.
+
 ## Installation
 
 - Flash the Raspberry Pi OS 64bit image onto the MicroSD card using Raspberry Pi Imager.
