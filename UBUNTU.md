@@ -52,7 +52,16 @@ Ubuntu Server LTS is the operating system running on the Raspberry Pi 4.
   adduser 'user_name'
   ```
 
+- Add the user to the sudoers file.
+
+  ```sh
+  sudo adduser 'user_name' sudo
+  ```
+
+- Reboot the system and login as the 'user_name'
+
 - Install net-tools and use ifconfig to find out the IP address of the machine.
+
   ```sh
   sudo apt install net-tools
   ifconfig
