@@ -13,23 +13,53 @@ Ubuntu Server LTS is the operating system running on the Raspberry Pi 4.
   sudo apt update
   sudo apt full-upgrade
   ```
+- Update the bootloader to the latest release and reboot.
 
-- Download the Ubuntu Server LTS ARM64 ISO file and flash it to the NVMe drive using Raspberry Pi Imager.
+'''sh
+sudo apt install rpi-eeprom
+sudo rpi-eeprom-update -d -a
+sudo reboot
+'''
+
+-Update the EEPROM configurtaion (select "Update" in the menu).
+
+'''sh
+sudo raspi-config
+'''
+
+- Change the boot order to boot from USB in order to boot from the NVMe drive (select "Advanced Options" and then "Boot Order").
+
+'''sh
+sudo raspi-config
+'''
+
+- Flash the Ubuntu Server LTS image to the NVMe drive using the Raspberry PI Imager tool and reboot.
 
 ## Configuration
 
-- **Boot the Raspberry Pi:**
-  Power on the Raspberry Pi with the SD card inserted. Connect it to your network via Ethernet or Wi-Fi.
+- Update the system and reboot.
 
-- **Access the System:**
-  Log in using SSH or directly on the Raspberry Pi:
-    - Username: "yourusername"
-    - Password: "yourpassword"
-  Change the password on first login.
+'''sh
+sudo apt install
+sudo apt full-upgrade
+sudo reboot
+'''
 
-- **Update the System:**
-  Run the following commands to update package lists and upgrade all packages:
+- Install net-tools and use ifconfig to find out the IP address of the machine.
+'''sh
+sudo apt install net-tools
+ifconfig
+'''
 
-  ```sh
-  sudo apt update
-  sudo apt full-upgrade
+- Set up the SSH server (Ubuntu machine).
+
+'''sh
+sudo apt install openssh-server
+sudo systemctl status ssh
+cd /etc/ssh
+ls -la
+sudo cp ./sshd_config ./sshd_config.original
+'''
+- Set up an SSH connection for remote administration (the commands are executed on the machine from which you want to remotely administer the Ubuntu Server).
+'''sh
+ssh ubuntu@your.ip.address.here
