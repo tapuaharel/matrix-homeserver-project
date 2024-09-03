@@ -24,6 +24,7 @@ This homeserver is for personal use and experimentation.
 
 SOHO router configuration
 
+- Set up a DHCP Reservation or configure a static IP address manually for the server.
 - Port forward port 22 to the server's IP address for a SSH connection over the internet.
 
 ## Documentation
@@ -34,7 +35,6 @@ For detailed installation and configuration, refer to the following documents in
 - **[Conduwuit](CONDUWUIT.md)**
 - **[Caddy](CADDY.md)**
 - **[Coturn](COTURN.md)**
-- **[Networking](NETWORKING.md)**
 
 ## Join
 
