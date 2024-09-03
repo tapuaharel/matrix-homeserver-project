@@ -1,6 +1,7 @@
 # Matrix Homeserver
 
 ## Overview
+
 This repository contains detailed documentation for the deployment of my Matrix homeserver.
 This homeserver is for personal use and experimentation.
 
@@ -18,6 +19,12 @@ This homeserver is for personal use and experimentation.
 - Conduwuit
 - Caddy
 - Coturn
+
+## Networking
+
+SOHO router configuration
+
+- Port forward port 22 to the server's IP address for a SSH connection over the internet.
 
 ## Documentation
 
