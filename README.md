@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains detailed documentation for the deployment of my Matrix homeserver.
+Detailed documentation for the deployment of my Matrix homeserver.
 This homeserver is for personal use and experimentation.
 
 ## Hardware
@@ -11,7 +11,7 @@ This homeserver is for personal use and experimentation.
 - Official Raspberry Pi 4 Power Supply
 - Argon ONE M.2 NVMe Aluminum Case
 - Samsung 256GB M.2 2280 PCIe 3.0 x4 NVMe SSD
-- SanDisk Ultra MicroSDXC 64GB
+- SanDisk Ultra 64GB A1 C10 U1 MicroSDXC card.
 
 ## Software
 
