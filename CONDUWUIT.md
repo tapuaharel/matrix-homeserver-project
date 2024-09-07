@@ -40,7 +40,7 @@ Conduwuit is a lightweight Matrix server implementation.
     }
     ```
 
-   - Start the conduwuit systemd service and set it to start automatically upon system boot.
+  - Start the conduwuit systemd service and set it to start automatically upon system boot.
 
    ```sh
    sudo systemctl start conduwuit.service
