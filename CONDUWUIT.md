@@ -4,7 +4,7 @@ Conduwuit is a lightweight Matrix server implementation.
 
 ## Installation
 
-- Download the aarch64 .deb package file from the repository's page.
+- Download Conduwuit from the GitHub repository.
 
     ```sh
     $ wget -O conduwuit.deb https://github.com/girlbossceo/conduwuit/releases/download/v0.4.6/aarch64-unknown-linux-musl.deb
