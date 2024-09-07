@@ -13,7 +13,7 @@ Conduwuit is a lightweight Matrix server implementation.
 - Install the .deb package (make sure to read the output that generated during installation).
 
    ```sh
-   $ sudo dpkg -i aarch64-unknown-linux-musl.deb
+   $ sudo dpkg -i conduwuit.deb
    ```
 
 ## Configuration
