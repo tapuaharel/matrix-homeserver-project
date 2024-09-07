@@ -14,6 +14,12 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
   $ sudo apt full-upgrade
   ```
   
+- Install Vim (not necessary but this is what I use for text editing)
+
+  ```sh
+  $ sudo apt install vim
+  ```
+
 - Update the bootloader to the latest release and reboot.
 
   ```sh
