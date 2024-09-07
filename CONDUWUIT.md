@@ -18,7 +18,7 @@ Conduwuit is a lightweight Matrix server implementation.
 
 ## Configuration
 
-- Create and configure the conduwuit configuration file (only the lines that I have modified)
+- Create and configure the conduwuit configuration file (only included the lines that I have modified)
 
     ```sh
     sudo vim /etc/conduwuit/conduwuit.toml
