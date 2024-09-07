@@ -66,11 +66,10 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
 
 - Reboot the system and login as the 'user_name'
 
-- Install net-tools and use ifconfig to find out the IP address of the machine.
+- Find the IP address of the machine.
 
   ```sh
-  $ sudo apt install net-tools
-  $ ifconfig
+  $ ip a
   ```
 
 - Set up the SSH server (for this setup I showed the password authentication method to establish connection).
