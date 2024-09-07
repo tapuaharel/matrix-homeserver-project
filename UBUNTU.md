@@ -49,13 +49,13 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
 - Add a new user to the system
 
   ```sh
-  $ adduser 'user_name'
+  $ adduser <user_name>
   ```
 
 - Add the user to the sudoers file.
 
   ```sh
-  $ sudo adduser 'user_name' sudo
+  $ sudo adduser <user_name> sudo
   ```
 
 - Reboot the system and login as the 'user_name'
@@ -77,7 +77,7 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
   ```d
   '/etc/ssd/sshd_config'
 
-  Match User 'user_name'
+  Match User <user_name>
   PasswordAuthentication yes
   ```
   
@@ -94,5 +94,5 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
 - Establish a SSH connection (commands executed on the client)
   
   ```sh
-  $ ssh 'user_name'@ip.address
+  $ ssh <user_name>@<ip_address>
   ```
