@@ -25,7 +25,6 @@ Conduwuit is a lightweight Matrix server implementation.
     ```
 
     ```toml
-    /etc/conduwuit/conduwuit.toml
 
     {
       "server_name": "example.com",
@@ -36,6 +35,7 @@ Conduwuit is a lightweight Matrix server implementation.
         "name": "matrixdb",
         "user": "yourusername",
         "password": "yourpassword"
+        address = "192.168.1.1"
       }
     }
     ```
