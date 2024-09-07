@@ -71,7 +71,7 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
 
   ```sh
   $ sudo apt install openssh-server
-  $ sudo vim /etc/ssh/sshd_config.d
+  $ sudo vim /etc/ssh/sshd_config
   ```
 
   ```d
