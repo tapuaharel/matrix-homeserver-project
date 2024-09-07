@@ -75,8 +75,6 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
   ```
 
   ```d
-  '/etc/ssd/sshd_config'
-
   Match User <user_name>
   PasswordAuthentication yes
   ```
