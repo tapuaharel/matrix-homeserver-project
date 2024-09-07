@@ -22,8 +22,7 @@ This homeserver is for personal use and experimentation.
 
 ## Networking
 
-SOHO router
-
+- Own a domain name.
 - Set up a DHCP Reservation or configure a static IP address manually for the server.
 - Port forward port 22 to the server's IP address for a SSH connection over the internet.
 
