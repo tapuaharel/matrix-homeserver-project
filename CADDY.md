@@ -13,7 +13,7 @@ Caddy is used as a reverse proxy to manage DNS, TLS, HTTPS and forward traffic t
 - Install the .deb Caddy package.
 
   ```sh
-  $ dpkg -i caddy.deb
+  $ sudo dpkg -i caddy.deb
   ```
 
 ## Configuration
