@@ -18,7 +18,7 @@ Conduwuit is a lightweight Matrix server implementation.
 
 ## Configuration
 
-- Create and configure the conduwuit configuration file.
+- Create and configure the conduwuit configuration file (only the lines that I have modified)
 
     ```sh
     sudo vim /etc/conduwuit/conduwuit.toml
@@ -39,14 +39,9 @@ Conduwuit is a lightweight Matrix server implementation.
       }
     }
     ```
-    - Replace `example.com` with your domain.
-    - Replace database credentials as appropriate.
 
-- **Run Conduwuit:**
-    ```sh
-    deno run --allow-net --allow-read --allow-write --allow-env mod.ts
-    ```
+   - Start the conduwuit systemd service and set it to start automatically upon system boot.
 
-## Federation
-
-- Ensure that federation is enabled and configured in `conduwuit-config.json`.
+   ```sh
+   sudo systemctl start conduwuit.service
+   sudo systemctl enable conduwuit.service
