@@ -18,14 +18,21 @@ Caddy is used as a reverse proxy to manage DNS, TLS, HTTPS and forward traffic t
 
 ## Configuration
 
-- **Create a `Caddyfile` in `/etc/caddy/` with the following content:**
-    ```text
-    example.com {
-        reverse_proxy / http://localhost:8008
-        log /var/log/caddy/access.log
-        file_server
-    }
+- Create the Caddy configuration file for Conduwuit.
+
+  ```sh
+  sudo vim /etc/caddy/conf.d/conduwuit_caddyfile
+  ```
+
+  ```text
+  your.server.name, your.server.name:8448 {
+    # TCP reverse_proxy
+    127.0.0.1:6167
+    # UNIX socket
+    #reverse_proxy unix//run/conduwuit/conduwuit.sock
+  }
     ```
+
     - Replace `example.com` with your domain.
     - Replace `localhost:8008` with your Conduwuit server address.
 
