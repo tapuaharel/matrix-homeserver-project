@@ -37,4 +37,4 @@ For detailed installation and configuration, refer to the following documents in
 
 ## Join
 
-Feel free to join my homeserver
+Feel free to join my homeserver at tapuah.net
