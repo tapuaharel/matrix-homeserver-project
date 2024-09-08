@@ -25,9 +25,9 @@ Conduwuit is a lightweight Matrix server implementation.
     ```
 
     ```toml
-      server_name = "<domain name>"
-      allow_registration = yes
-      registration_token = "CHANGE THIS"
+    server_name = "<domain name>"
+    allow_registration = yes
+    registration_token = "CHANGE THIS"
     ```
 
 - Start the conduwuit systemd service and set it to start automatically upon system boot.
