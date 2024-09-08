@@ -30,10 +30,10 @@ This homeserver is for personal use and experimentation.
 
 For detailed installation and configuration, refer to the following documents in the order shown:
 
-- **[Ubuntu Server LTS](UBUNTU.md)**
-- **[Conduwuit](CONDUWUIT.md)**
-- **[Caddy](CADDY.md)**
-- **[Coturn](COTURN.md)**
+- **[Ubuntu Server LTS](docs/UBUNTU.md)**
+- **[Conduwuit](docs/CONDUWUIT.md)**
+- **[Caddy](docs/CADDY.md)**
+- **[Coturn](docs/COTURN.md)**
 
 ## Join
 
