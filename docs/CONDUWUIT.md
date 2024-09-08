@@ -25,19 +25,9 @@ Conduwuit is a lightweight Matrix server implementation.
     ```
 
     ```toml
-
-    {
-      "server_name": "example.com",
-      "database": {
-        "type": "postgres",
-        "host": "localhost",
-        "port": 5432,
-        "name": "matrixdb",
-        "user": "yourusername",
-        "password": "yourpassword"
-        address = "192.168.1.1"
-      }
-    }
+      server_name = "<domain name>"
+      allow_registration = yes
+      registration_token = "CHANGE THIS"
     ```
 
 - Start the conduwuit systemd service and set it to start automatically upon system boot.
