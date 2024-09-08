@@ -18,6 +18,15 @@ Caddy is used as a reverse proxy to manage DNS, TLS, HTTPS and forward traffic t
 
 ## Configuration
 
+- Edit the Caddy configuration file to enable reverse proxy and disable all other services.
+  
+  ```sh
+  $ sudo vim /etc/caddy/Caddyfile
+  ```
+
+  ```text
+  tapuah.net {
+                   reverse_proxy localhost:
 - Create the Caddy configuration file for Conduwuit.
 
   ```sh
