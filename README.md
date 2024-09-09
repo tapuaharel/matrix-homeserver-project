@@ -4,7 +4,7 @@
 
 Detailed documentation for the deployment of my Matrix homeserver.
 This homeserver is for personal use and experimentation.
-Feel free to join my homeserver at tapuah.net
+Feel free to join my homeserver at **tapuah.net**.
 
 ## Hardware
 
