@@ -4,6 +4,7 @@
 
 Detailed documentation for the deployment of my Matrix homeserver.
 This homeserver is for personal use and experimentation.
+Feel free to join my homeserver at tapuah.net
 
 ## Hardware
 
@@ -35,7 +36,3 @@ For detailed installation and configuration, refer to the following documents in
 - **[Conduwuit](docs/CONDUWUIT.md)**
 - **[Caddy](docs/CADDY.md)**
 - **[Coturn](docs/COTURN.md)**
-
-## Join
-
-Feel free to join my homeserver at tapuah.net
