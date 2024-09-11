@@ -23,10 +23,10 @@ Feel free to join my homeserver at **tapuah.net**.
 
 ## Networking
 
-- Own a domain name.
-- Set up DNS A/AAAA records to map into your public IP address.
-- Set up a DHCP Reservation or configure a static IP address manually for the server.
-- Port forward port 22 to the server's IP address for a SSH connection over the internet.
+- Domain Name
+- DNS A/AAAA records
+- DHCP reservation/static IP Address (for the server)
+- Port Forwarding TCP <server.ip.address>:443 <server.ip.address>:8448
 
 ## Documentation
 
