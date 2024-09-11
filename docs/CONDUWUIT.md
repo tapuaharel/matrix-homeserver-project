@@ -30,7 +30,7 @@ Conduwuit is a lightweight Matrix server implementation.
     registration_token = "CHANGE THIS"
     ```
 
-- Start the conduwuit systemd service and set it to start automatically upon system boot.
+- Start the conduwuit systemd service and set it to start automatically on boot.
 
    ```sh
    $ sudo systemctl start conduwuit.service
