@@ -36,3 +36,6 @@ For detailed installation and configuration, refer to the following documents in
 - **[Conduwuit](docs/CONDUWUIT.md)**
 - **[Caddy](docs/CADDY.md)**
 - **[Coturn](docs/COTURN.md)**
+
+**Synatx Note**
+Everything inside <> is an example and needs to be changed!!!
