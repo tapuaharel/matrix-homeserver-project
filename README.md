@@ -37,5 +37,4 @@ For detailed installation and configuration, refer to the following documents in
 - **[Caddy](docs/CADDY.md)**
 - **[Coturn](docs/COTURN.md)**
 
-**Synatx Note**
-Everything inside < > is an example and needs to be changed!!!
+**Synatx Note:** Everything inside < > is an example and needs to be changed!!!
