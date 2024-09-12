@@ -7,13 +7,13 @@ Conduwuit is a lightweight Matrix server implementation.
 - Download Conduwuit from the GitHub repository.
 
     ```sh
-    $ wget -O conduwuit.deb https://github.com/girlbossceo/conduwuit/releases/download/v0.4.6/aarch64-unknown-linux-musl.deb
+     wget -O conduwuit.deb https://github.com/girlbossceo/conduwuit/releases/download/v0.4.6/aarch64-unknown-linux-musl.deb
     ```
 
 - Install the .deb package (make sure to read the output that generated during installation).
 
    ```sh
-   $ sudo dpkg -i conduwuit.deb
+    sudo dpkg -i conduwuit.deb
    ```
 
 ## Configuration
@@ -21,10 +21,12 @@ Conduwuit is a lightweight Matrix server implementation.
 - Create and configure the conduwuit configuration file (only included the lines that I have modified)
 
     ```sh
-    $ sudo vim /etc/conduwuit/conduwuit.toml
+     sudo vim /etc/conduwuit/conduwuit.toml
     ```
 
-    ```toml
+    ```
+    /etc/conduwuit/conduwuit.toml
+
     server_name = "<domain name>"
     allow_registration = true
     registration_token = "CHANGE THIS"
@@ -33,5 +35,5 @@ Conduwuit is a lightweight Matrix server implementation.
 - Start the conduwuit systemd service and set it to start automatically on boot.
 
    ```sh
-   $ sudo systemctl start conduwuit.service
-   $ sudo systemctl enable conduwuit.service
+    sudo systemctl start conduwuit.service
+    sudo systemctl enable conduwuit.service
