@@ -29,7 +29,7 @@ Conduwuit is a lightweight Matrix server implementation.
 
     server_name = "<domain_name>"
     allow_registration = true
-    registration_token = "CHANGE THIS"
+    registration_token = "<shared_secret_token>"
     ```
 
 - Start the conduwuit systemd service and set it to start automatically on boot.
