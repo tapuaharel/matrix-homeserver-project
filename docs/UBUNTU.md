@@ -10,34 +10,34 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
 - Update package lists and upgrade all packages.
 
   ```sh
-  $ sudo apt update
-  $ sudo apt full-upgrade
+   sudo apt update
+   sudo apt full-upgrade
   ```
   
 - Install Vim (not necessary but this is what I use for text editing)
 
   ```sh
-  $ sudo apt install vim
+   sudo apt install vim
   ```
 
 - Update the bootloader to the latest release and reboot.
 
   ```sh
-  $ sudo apt install rpi-eeprom
-  $ sudo rpi-eeprom-update -d -a
-  $ sudo reboot
+   sudo apt install rpi-eeprom
+   sudo rpi-eeprom-update -d -a
+   sudo reboot
   ```
 
 - Update the EEPROM configurtaion (select "Update" in the menu).
 
   ```sh
-  $ sudo raspi-config
+   sudo raspi-config
   ```
 
 - Change the boot order to boot from USB in order to boot from the NVMe drive (select "Advanced Options" and then "Boot Order").
 
   ```sh
-  $ sudo raspi-config
+   sudo raspi-config
   ```
 
 - Flash the Ubuntu Server LTS image to the NVMe drive using the Raspberry PI Imager tool and reboot.
@@ -47,21 +47,21 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
 - Update the system and reboot.
 
   ```sh
-  $ sudo apt install
-  $ sudo apt full-upgrade
-  $ sudo reboot
+   sudo apt install
+   sudo apt full-upgrade
+   sudo reboot
   ```
 
 - Add a new user to the system
 
   ```sh
-  $ adduser <user_name>
+   adduser <user_name>
   ```
 
 - Add the user to the sudoers file.
 
   ```sh
-  $ sudo adduser <user_name> sudo
+   sudo adduser <user_name> sudo
   ```
 
 - Reboot the system and login as the 'user_name'
@@ -69,14 +69,14 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
 - Find the IP address of the machine.
 
   ```sh
-  $ ip a
+   ip a
   ```
 
 - Set up the SSH server (for this setup I showed the password authentication method to establish connection).
 
   ```sh
-  $ sudo apt install openssh-server
-  $ sudo vim /etc/ssh/sshd_config
+   sudo apt install openssh-server
+   sudo vim /etc/ssh/sshd_config
   ```
 
   ```d
@@ -85,17 +85,17 @@ Ubuntu Server LTS is the operating system that will be running on the Raspberry 
   ```
   
   ```sh
-  $ sudo systemctl restart ssh
+   sudo systemctl restart ssh
   ```
 
 - Set up the SSH client (commands executed on the client)
 
   ```sh
-  $ sudo apt install openssh
+   sudo apt install openssh
   ```
 
 - Establish a SSH connection (commands executed on the client)
   
   ```sh
-  $ ssh <user_name>@<ip_address>
+   ssh <user_name>@<ip_address>
   ```
