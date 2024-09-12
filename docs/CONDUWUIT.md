@@ -27,7 +27,7 @@ Conduwuit is a lightweight Matrix server implementation.
     ```
     /etc/conduwuit/conduwuit.toml
 
-    server_name = "<domain name>"
+    server_name = "<domain_name>"
     allow_registration = true
     registration_token = "CHANGE THIS"
     ```
