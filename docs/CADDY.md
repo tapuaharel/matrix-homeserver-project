@@ -34,3 +34,7 @@ Caddy is used to manage Reverse Proxy, TLS and HTTPS.
       # reverse_proxy unix//run/conduwuit/conduwuit.sock
   }
   ```
+
+  ```sh
+  sudo systemctl enable --now caddy
+  ```
