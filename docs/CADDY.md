@@ -25,6 +25,8 @@ Caddy is used to manage Reverse Proxy, TLS and HTTPS.
   ```
 
   ```
+  /etc/caddy/Caddyfile
+
   your.server.name, your.server.name:8448 {
       # TCP reverse_proxy
       127.0.0.1:6167
