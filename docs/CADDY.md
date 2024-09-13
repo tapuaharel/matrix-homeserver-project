@@ -31,8 +31,8 @@ Caddy is used to manage Reverse Proxy, TLS and HTTPS.
       reverse_proxy 127.0.0.1:6167
   }
   ```
-
+- Enable and start both the Caddy and the Conduwuit services.
   ```sh
   sudo systemctl enable --now caddy
-  sudo systemctl restart conduwuit
+  sudo systemctl enable --now conduwuit
   ```
