@@ -12,14 +12,14 @@ Coturn provides TURN services to enhance real-time communication.
 
 ## Configuration
 
-- Create and edit the configuration file.
+- Create and edit the configuration file (I included only the thing I modified).
 
     ```sh
-    sudo vim /etc/coturn.conf
+    sudo vim /etc/turnserver.conf
     ```
 
     ```
-    /etc/coturn.conf
+    /etc/turnserver.conf
     
     use-auth-secret
     static-auth-secret=<secret_key>
