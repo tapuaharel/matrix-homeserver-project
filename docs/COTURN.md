@@ -4,7 +4,8 @@ Coturn provides TURN services to enhance real-time communication.
 
 ## Installation
 
-- **Install Coturn:**
+- Install Coturn.
+
     ```sh
     sudo apt install coturn
     ```
