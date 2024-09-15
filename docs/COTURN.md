@@ -54,10 +54,3 @@ Coturn provides TURN services to enhance real-time communication.
     ```sh
     sudo systemctl enable --now coturn
     ```
-
-## Troubleshooting
-
-- **Check logs for errors:**
-    ```sh
-    sudo journalctl -u coturn
-    ```
