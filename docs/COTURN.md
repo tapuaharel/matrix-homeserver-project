@@ -27,7 +27,7 @@ Coturn provides TURN services to enhance real-time communication.
     tls-listening-port=5349
     use-auth-secret
     static-auth-secret=<secret_key>
-    realm=<domain_name>
+    realm=turn.<domain_name>
     no-tcp-relay
     denied-peer-ip=10.0.0.0-10.255.255.255
     denied-peer-ip=192.168.0.0-192.168.255.255
