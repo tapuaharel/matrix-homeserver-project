@@ -30,6 +30,6 @@ Conduwuit is a lightweight Matrix server implementation.
     server_name = "<domain_name>"
     allow_registration = true
     registration_token = "<shared_secret_token>"
-    turn_uris = ["turn:<turn.uri>?transport=udp", "turn:<turn.uri>?transport=tcp"]
+    turn_uris = ["turns:<turn.uri>?transport=udp", "turns:<turn.uri>?transport=tcp"]
     turn_secret = "<turn_secret_key>"
     ```
