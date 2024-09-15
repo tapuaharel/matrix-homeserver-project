@@ -49,10 +49,10 @@ Coturn provides TURN services to enhance real-time communication.
     total-quota=1200
     ```
     
-- **Enable and start Coturn:**
+- Enable and start the Coturn systemd service.
+
     ```sh
-    sudo systemctl enable coturn
-    sudo systemctl start coturn
+    sudo systemctl enable --now coturn
     ```
 
 ## Troubleshooting
