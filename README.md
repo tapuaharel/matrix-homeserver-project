@@ -25,8 +25,8 @@ Feel free to join my homeserver at **tapuah.net**.
 
 - Domain Name
 - DNS A/AAAA records
-- DHCP reservation/static IP Address for the server
-- Configure a DMZ zone for the server
+- DHCP reservation/static IP Address
+- DMZ Zone
 - Port Forwarding TCP <server.ip.address>:443 <server.ip.address>:8448
 - Port Forwarding TCP/UDP <server.ip.address>:3478 <server.ip.address>:5349
 
