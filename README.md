@@ -29,6 +29,7 @@ Feel free to join my homeserver at **tapuah.net**.
 - DMZ Zone
 - Port Forwarding TCP <server.ip.address>:443 <server.ip.address>:8448
 - Port Forwarding TCP/UDP <server.ip.address>:3478 <server.ip.address>:5349
+- TLS Certificate (TURNS)
 
 ## Documentation
 
