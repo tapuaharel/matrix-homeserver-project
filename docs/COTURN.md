@@ -12,7 +12,7 @@ Coturn provides TURN services to enhance real-time communication.
 
 ## Configuration
 
-- Create and edit the configuration file (only included the lines I modified).
+- Create and edit the configuration file.
 
     ```sh
     sudo vim /etc/turnserver.conf
@@ -21,6 +21,10 @@ Coturn provides TURN services to enhance real-time communication.
     ```
     /etc/turnserver.conf
 
+    verbose
+    syslog
+    listening-port=3478
+    tls-listening-port=5349
     use-auth-secret
     static-auth-secret=<secret_key>
     realm=<domain_name>
@@ -40,7 +44,7 @@ Coturn provides TURN services to enhance real-time communication.
     denied-peer-ip=198.51.100.0-198.51.100.255
     denied-peer-ip=203.0.113.0-203.0.113.255
     denied-peer-ip=240.0.0.0-255.255.255.255
-    allowed-peer-ip=192.168.1.10
+    allowed-peer-ip=<server.internal.ip.address>
     user-quota=12
     total-quota=1200
     ```
