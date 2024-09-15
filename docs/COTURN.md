@@ -54,3 +54,9 @@ Coturn provides TURN services to enhance real-time communication.
     ```sh
     sudo systemctl enable --now coturn
     ```
+
+- Restart the Conduwuit systemd service.
+
+   ```sh
+   sudo systemctl restart conduwuit
+   ```
