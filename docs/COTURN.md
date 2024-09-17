@@ -51,13 +51,13 @@ Coturn provides TURN services to enhance real-time communication.
     total-quota=1200
     ```
     
-- Enable and start the Coturn systemd service.
+- Enable and start the Coturn service.
 
     ```sh
     sudo systemctl enable --now coturn
     ```
 
-- Restart the Conduwuit systemd service.
+- Restart the Conduwuit service.
 
    ```sh
    sudo systemctl restart conduwuit
