@@ -6,6 +6,8 @@ Detailed documentation for the deployment of my Matrix homeserver.
 This homeserver is for personal use and experimentation.
 Feel free to join my homeserver at **tapuah.net**.
 
+**Synatx Note:** Everything inside < > is an example and needs to be changed!!!
+
 ## Hardware
 
 - Raspberry Pi 4 Model B 8GB RAM
@@ -39,5 +41,3 @@ For detailed installation and configuration, refer to the following documents in
 - **[Conduwuit](docs/CONDUWUIT.md)**
 - **[Caddy](docs/CADDY.md)**
 - **[Coturn](docs/COTURN.md)**
-
-**Synatx Note:** Everything inside < > is an example and needs to be changed!!!
