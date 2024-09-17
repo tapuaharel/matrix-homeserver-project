@@ -27,9 +27,9 @@ Conduwuit is a lightweight Matrix server implementation.
     ```
     /etc/conduwuit/conduwuit.toml
 
-    server_name = "matrix.<domain_name>"
+    server_name = "matrix.<domain name>"
     allow_registration = true
-    registration_token = "<shared_secret_token>"
+    registration_token = "<shared secret token>"
     turn_uris = ["turns:<turn.uri>?transport=udp", "turns:<turn.uri>?transport=tcp"]
-    turn_secret = "<turn_secret_key>"
+    turn_secret = "<turn secret key>"
     ```
