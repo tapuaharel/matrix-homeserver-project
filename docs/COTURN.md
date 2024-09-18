@@ -22,6 +22,7 @@ Coturn provides TURN services to enhance real-time communication.
     /etc/turnserver.conf
 
     verbose
+    fingerprint
     syslog
     listening-port=3478
     tls-listening-port=5349
@@ -47,6 +48,7 @@ Coturn provides TURN services to enhance real-time communication.
     denied-peer-ip=203.0.113.0-203.0.113.255
     denied-peer-ip=240.0.0.0-255.255.255.255
     allowed-peer-ip=<server.internal.ip.address>
+    external-ip=<public.ip.address>
     user-quota=12
     total-quota=1200
     ```
