@@ -3,7 +3,8 @@
 ## Overview
 
 Detailed documentation for the deployment of my Matrix homeserver.
-Feel free to join my homeserver at **tapuah.net**.
+Feel free to join my homeserver at **matrix.tapuah.net**!
+Registration Token:: UcYsmKT9yEttUyfkS5
 
 **Synatx Note:** Everything inside < > is an example and needs to be changed!!!
 
