@@ -28,8 +28,8 @@ Feel free to join my homeserver at **tapuah.net**, registration token: apple
 - DNS A/AAAA records
 - DHCP reservation/static IP Address
 - DMZ
-- Port Forwarding TCP <server.ip.address>:443 <server.ip.address>:8448
-- Port Forwarding TCP/UDP <server.ip.address>:3478 <server.ip.address>:5349
+- Port Forwarding TCP <server.ip.address>:443, <server.ip.address>:8448
+- Port Forwarding TCP/UDP <server.ip.address>:3478, <server.ip.address>:5349
 - Port Forwarding UDP <server.ip.address>:49152-65535
 - TLS Certificate (TURNS)
 
