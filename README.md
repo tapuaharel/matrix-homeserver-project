@@ -21,11 +21,13 @@ Feel free to join my homeserver at **tapuah.net**, registration token: apple
 - Conduwuit
 - Caddy
 - Coturn
+- Cron
 
 ## Networking
 
 - Domain Name
-- DNS A/AAAA records
+- DuckDNS subdomain
+- DNS Alias record
 - DHCP reservation/static IP Address
 - DMZ
 - Port Forwarding TCP <server.ip.address>:443, <server.ip.address>:8448
