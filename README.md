@@ -21,7 +21,6 @@ Feel free to join my homeserver at **tapuah.net**, registration token: apple
 - Conduwuit
 - Caddy
 - Coturn
-- Cron
 
 ## Networking
 
@@ -43,4 +42,3 @@ For detailed installation and configuration, refer to the following documents in
 - **Conduwuit**
 - **Caddy**
 - **Coturn**
-- **Cron**
