@@ -43,3 +43,4 @@ For detailed installation and configuration, refer to the following documents in
 - **Conduwuit**
 - **Caddy**
 - **Coturn**
+- **Cron**
